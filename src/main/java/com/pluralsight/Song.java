@@ -16,5 +16,20 @@ public class Song {
         this.streamCount = streamCount;
     }
 
+    //    Generate Getters
+    public String getTitle() {
+        return title;
+    }
 
+    public String getArtist() {
+        return artist;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public long getStreamCount() {
+        return streamCount;
+    }
 }
