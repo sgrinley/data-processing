@@ -31,5 +31,13 @@ public class Song {
 
     public long getStreamCount() {
         return streamCount;
+
+
+    }
+
+    //    Display Object State
+    @Override
+    public String toString() {
+        return "Song{" + title + "' by " + artist + " [" + genre + "] - " + streamCount + " streams";
     }
 }
